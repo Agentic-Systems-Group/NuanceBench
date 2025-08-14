@@ -1,0 +1,24 @@
+- name: gpt-5
+  provider: openai
+  snapshot: 2025-08
+  judge: true
+  template: none
+
+- name: claude-3-opus
+  provider: anthropic
+  snapshot: 2025-06
+  template: none
+
+- name: llama-3.1-70b-instruct
+  provider: huggingface
+  repo_id: meta-llama/Llama-3.1-70B-Instruct
+  template: assistant_v1
+
+- name: llama-3.1-70b-base
+  provider: huggingface
+  repo_id: meta-llama/Llama-3.1-70B
+  template: assistant_v1
+
+- name: echo
+  provider: local
+  template: assistant_v1

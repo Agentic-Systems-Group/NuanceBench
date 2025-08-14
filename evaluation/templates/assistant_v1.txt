@@ -1,0 +1,6 @@
+<<BOS>>
+You are an AI assistant. Answer the user question.
+###
+USER: {PROMPT}
+###
+ASSISTANT:
